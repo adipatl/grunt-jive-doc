@@ -1,0 +1,38 @@
+{
+  "name": "grunt-jive-doc",
+  "description": "Grunt plugin for JIVE Document API",
+  "version": "0.1.0",
+  "homepage": "https://github.com/adipatl/grunt-jive-doc",
+  "author": {
+    "name": "Adipat Larprattanakul",
+    "email": "adipat.larprattanakul@thomsonreuters.com",
+    "url": "adipatl.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adipatl/grunt-jive-doc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adipatl/grunt-jive-doc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/adipatl/grunt-jive-doc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "tasks/jive_doc.js",
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "promise": "^8.0.1",
+    "request": "^2.87.0"
+  }
+}
